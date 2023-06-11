@@ -1,0 +1,43 @@
+#GRUPO{
+	color:blue;
+	padding:3px;
+    margin:3px;
+    background-color:Gold;
+	font-size:15px;
+	font-family:Impact;
+	width:100vw;
+}
+	
+.RECUADRO{
+	margin:10px;
+	padding:10px; 
+
+}
+
+.TEXTO1{
+	background-color:Brown;
+	width:100vw;
+}
+.TEXTO2{
+	background-color:Cyan;
+	width:100vw;
+	
+}
+	
+.TEXTO3{
+	background-color:Coral;
+	width:100vw;
+	}
+
+
+h1{
+	color:Skyblue;
+	font-size:30px;
+    font-family:sans-serif;
+}
+	
+h2{
+	color:Green;
+	font-size:20;
+	font-family:Impact;
+}

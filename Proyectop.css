@@ -1,0 +1,267 @@
+*{
+border-sizing:borderbox;
+}
+
+body {
+    background:#7fff00;
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+    color:azure;
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+}
+
+.menu{
+    background:#afee;
+    width:100%;
+    list-style:none;
+    padding:0px;
+    margin-left:0px;
+}
+
+.menu li{
+      display:inline-block;
+}
+
+ .menu li a{
+      display:inline-block;
+      padding:10px 20px;
+      text-decoration:none;
+      font-size:25px;
+      font-family: 'Bebas Neue', cursive;
+      color:#1c2533;
+ }
+ 
+ .menu li a:hover{
+     background:#54549e;
+     color:white;
+ }
+ 
+ .contenedor{
+     background:rgba(175,238,238,0.9);
+     width:50%;
+     padding:20px;
+     margin:auto;
+ }
+ 
+ h2{
+    color:yellow;
+    text-align:center;
+    text-decoration:underline;
+    text-transform:uppercase;    
+    font-family:verdana, arial helvetica;
+}
+
+h3{
+    color:Chocolate;
+    text-align:center;
+    text-decoration:underline;
+    text-transform:uppercase;
+    background:lightskyblue;  
+    font-family:verdana, arial helvetica;
+}
+
+p{
+    font-size:20px;
+    font-family: 'Climate Crisis', serif;
+    text-align:justify;
+    line-height:20px;
+    color:white;
+}
+
+.imagen-contenido{
+    width:300px;
+    display:block;
+    margin:auto;
+    border-radius:30%;
+    box-shadow:10px 5px 10px #1e2b47;
+}
+
+ul{
+    font-size:20px;
+    font-family: 'Climate Crisis', serif;
+    text-align:justify;
+    line-height:20px;
+    color:white;
+}
+
+#contenedor{
+      color:rgb(32,178,170);
+      padding:10px;
+      margin:10px;
+      background-color:#98ffb98;
+      font-size:20px;
+      font-family: 'Climate Crisis', serif;
+}
+
+.elemento1{
+    background-color:rgba(119,136,153,0.9);
+}
+
+.elemento2{
+    background-color:rgba(119,136,153,0.9);
+}
+
+.elemento3 {
+    line-height:30px;
+    text-align:justify;
+	background-color:olive;
+	padding:10px;	
+}
+
+div{
+	margin:5px;
+	padding:10px;
+}
+.Lista{
+	font-size:20px;
+	text-align:justify;
+	text-align:center;
+    text-decoration:underline;
+    text-transform:uppercase;
+    background:lightskyblue;  
+	font-family: 'Climate Crisis', serif;
+	
+}
+.c1{
+	width:75%;
+	 margin:auto;
+}
+.c2{
+	 width:50%;
+	 margin:auto;
+}
+
+.pie-pagina{
+	background-color:black;
+	padding:20px;
+}
+
+.pie-pagina p{
+	text-align:center;
+	font-size:15px;
+}
+
+.container{
+	position:relative;
+	width:100%;
+	height:500px;
+	padding:0px;
+	margin:0px;
+}
+
+.fondo-container{
+	display:block;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.logo{
+	width:150px;
+}
+
+.logo-container{
+	position:absolute;
+	top:300px;
+	left:85%;
+}
+
+.titulos-container{
+	position:absolute;
+	top:0px;
+	left:50%;
+	transform:translate(-50%);
+}
+
+.boton{
+	text-decoration:none;
+	font-size:20px;
+	padding:20px;
+	background-color:green;
+	color:yellow;
+	border-radius:15px;
+}
+
+.boton:hover{
+	background:red;
+	color:white;
+}
+
+.boton-container{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.galeria{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	padding:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.columna{
+	width:25%;
+	height:200px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+
+.columna img{
+	width:100%;
+	height:100%;
+	filter:grayscale(100%);
+	transition:filter 0.8s;
+}
+
+.columna:hover img{
+	filter:grayscale(0%);
+}
+
+
+.contendor-texto{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	display:flex;
+	color:#fff;
+	align-items:center;
+	justify-content:center;
+	opacity:0;
+	transition:opacity 0.5s;
+}
+
+.columna:hover .contendor-texto{
+	opacity:1;
+}
+
+.usos{
+	display:flex;
+	flex-wrap:wrap;
+	margin:30px auto;
+	width:80%;
+	padding:0px;
+}
+
+.columna50{
+	width:40%;
+	color:yellow;
+	margin:20px auto;
+}
+
+.columna50 h5, p{
+	text-align:center;
+	transform:lowercase;
+}
